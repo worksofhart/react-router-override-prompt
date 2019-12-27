@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Switch, Route } from "react-router-dom";
 import Home from "./Home";
-import FormPage from "./PromptPage";
+import FormPage from "./FormPage";
 import "./App.css";
 
 const App = () => (
