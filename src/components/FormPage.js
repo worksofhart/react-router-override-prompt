@@ -12,7 +12,7 @@ const FormPage = () => {
 
   return (
     <div>
-      <Prompt when={unsaved} message="Are you sure?" />
+      <Prompt when={unsaved} message={text} />
       {unsaved ? "Unsaved " : "Saved "}
       <input type="text" onChange={handleChange} value={text} />
     </div>
