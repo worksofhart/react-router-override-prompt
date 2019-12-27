@@ -1,8 +1,10 @@
 import axios from "axios";
 
-const Popup = ({ message, callback }) => {
+const RescueForm = ({ message, callback }) => {
   axios
-    .post("https://postman-echo.com/post", { foo: "foo" })
+    .post("https://webhook.site/d2f59c44-4b9a-4f53-a2a6-16ae50bd83c4", {
+      foo: "foo"
+    })
     .then(res => {
       console.log(res);
       callback(true);
@@ -14,4 +16,4 @@ const Popup = ({ message, callback }) => {
   return null;
 };
 
-export default Popup;
+export default RescueForm;
